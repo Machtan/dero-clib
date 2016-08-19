@@ -1,0 +1,14 @@
+[package]
+authors = ["Machtan <jako3047@gmail.com>"]
+name = "dero-clib"
+version = "0.1.0"
+
+[lib]
+name = "dero_clib"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.14"
+
+[dependencies.dero]
+path = "../dero"

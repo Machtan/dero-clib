@@ -1,0 +1,12 @@
+.DS_Store
+target
+Cargo.lock
+test_tls_sigsegv
+fail-binibal-exabple
+main.c
+main.lua
+main
+*.d
+*.o
+*.dylib
+*.dSYM
